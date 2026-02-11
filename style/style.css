@@ -49,6 +49,7 @@ header{
   align-content: center;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 nav#menu ul{
@@ -83,6 +84,7 @@ main{
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
+  margin-bottom: 20px;
 }
 
 #ficha img.foto{
@@ -262,6 +264,11 @@ footer a{
     height: fit-content;
     position: sticky;
     top: 60px;
+  }
+
+  .apresentacao{
+    text-align: center;
+    margin-bottom: 20px;
   }
 
   section#detalhes{
